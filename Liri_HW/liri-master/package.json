@@ -1,0 +1,17 @@
+{
+  "name": "liri-master",
+  "version": "1.0.0",
+  "description": "LIRI searches Spotify for songs, Bands in Town for concerts, and OMDB for movies. The user inputs a command (concert, spotify, or movie), and then their query. Liri returns the result both in the terminal as well as a log.txt file.",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.88.0"
+  }
+}
